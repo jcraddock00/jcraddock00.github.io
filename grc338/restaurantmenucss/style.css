@@ -1,1 +1,56 @@
+/* CSS Document */
 
+<style> 
+
+.content
+{
+max-width: 600em;
+margin: auto;
+}
+	body 
+	{
+		background-color: #DBE4F5;
+	}
+
+	h1
+	{
+		background-color: #8794AB;
+		font-size: 14em;
+		font-family: sans-serif;
+		color:#FCFDFF;
+	}
+
+	h2
+	{
+		background-color: #DBE4F5;
+		font-size: 12em;
+		font-family: serif <b>;
+		color: #414B5E;
+	}
+
+	h3
+	{
+		background-color: #DBE4F5;
+		font-size: 10em;
+		font-family: serif <b>;
+		color: #000000;
+	}
+
+	h4
+	{
+		background-color: #DBE4F5;
+		font-size: 9em;
+		font-family: serif <b>;
+		color: #000000;
+	}
+
+	li
+	{
+		background-color: #DBE4F5;
+		font-size: 9em;
+		font-family: serif <b>;
+		color: #000000;
+		list-style: none;
+	}
+	
+</style>
