@@ -1,0 +1,75 @@
+/*CSS document*/
+
+body {
+    font-family: quasimoda, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #7BA872;
+    line-height: 1.6em;
+    background-color: #FFF3D8;
+}
+header h1{
+    width: 20%;
+}
+a{
+    text-decoration-line: none;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+h2{
+    color: #7BA872;
+    font-family: verveine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+    text-decoration-line: none;
+}
+
+h3{
+    font-family: verveine, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+figcaption {
+    font-family: quasimoda, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #C9D199;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    font-family: quasimoda-2, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0;
+    background-color: #FFF3D8;
+}
+
+section a{
+    color: #DEB68C;
+}
+nav a{
+    color: #7487B3;
+}
+
+nav ul li{
+    display: inline;
+    margin: 2em;
+
+
+}
