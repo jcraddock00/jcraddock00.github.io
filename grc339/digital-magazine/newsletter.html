@@ -1,0 +1,96 @@
+<!doctype html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="https://use.typekit.net/ces4nzh.css">
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <title>Slome</title> <!-- ★ Please include a proper title.-->
+
+            <!-- Helpful meta tags to fight GitHub aggresive caching-->
+                <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+                <meta http-equiv="Pragma" content="no-cache" />
+                <meta http-equiv="Expires" content="0" />
+            
+        </head>	
+
+        <body>
+            <div class="container">
+                <header>
+                    <div class="logo">
+                        <a href="index.html">
+                        <h1> <img src="logo.png" alt="Logo of Slome."> </h1> <!-- ★ Please use a proper alt attribute.-->
+                        </a>
+                    </div>
+                    <nav>
+                        <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
+                            <li><a href="#">Eatin'</a></li>
+                            <li><a href="#">Drinkin'</a></li>
+                            <li><a href="#">Explorin'</a></li>
+                            <li><a href="#">Movin'</a></li>
+                            <li><a href="mainstory.html">Watchin'</a></li>
+                            <li><a href="newsletter.html"> Subscribe</a></li>
+                            <li><a href="gallery.html"> Gallery</a></li> 
+                        </ul>
+                    </nav>
+                </header>
+                <main class="navigation">
+                    <form>
+                        <h3> So you want to subscribe?</h3>
+                        <section class="person-info">
+                            <p>Stay up to date on all things San Luis Obispo and be the first to know about all of the new and exciting things to do!</p>
+
+                            <ul>
+                                <li>
+                                    <label for="name"> Name: </label>
+                                    <input type="text" name="name" id="name" placeholder="Enter first and last name here.">
+                                </li>
+                                <li>
+                                    <label for="email"> Email: </label>
+                                    <input type="email" name="email" id="email" placeholder="Where can we contact you at?">
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section class="newsletter-type">
+                            <p> Which part of Slome are you most interested in?</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="Eatin" value="Eatin">
+                                    <label for="Eatin"> Eatin'</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="Drinkin" value="Drinkin">
+                                    <label for="Drinkin"> Drinkin'</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="Watchin" value="Watchin">
+                                    <label for="Watchin"> Watchin'</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="Movin" value="Movin">
+                                    <label for="Movin"> Movin'</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="Explorin" value="Explorin">
+                                    <label for="explorin"> Explorin'</label>
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section class="new-ideas">
+                            <p> Have a favorite activity in SLO that we missed? Let us know below! </p>
+                            <textarea id="suggestions" name="suggestions" placeholder="What are some of your favorite activities that you think we missed?"></textarea>
+                        </section>
+                    </form>
+                    
+                </main>   
+            </div>
+                <footer>
+                    <p> All rights reserved.</p>
+                </footer>
+            </div>
+        </body>
+    </html>
+
+
